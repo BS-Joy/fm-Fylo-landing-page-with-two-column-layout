@@ -19,7 +19,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Click-Here!](https://github.com/BS-Joy/fm-Fylo-landing-page-with-two-column-layout/tree/gh-pages)
-- Live Site URL: [Click-Here!](hhttps://bs-joy.github.io/fm-Fylo-landing-page-with-two-column-layout/)
+- Live Site URL: [Click-Here!](https://bs-joy.github.io/fm-Fylo-landing-page-with-two-column-layout/)
 
 ### Built with
 
