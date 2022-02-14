@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <script src="https://kit.fontawesome.com/a1b67211ba.js" crossorigin="anonymous"></script>
+
+  <!-- my style.css -->
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <div class="nav-logo">
+      <img src="images/logo.svg" alt="site-logo">
+    </div>
+    <ul class="menu">
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Team</a></li>
+      <li><a href="#">Sign In</a></li>
+    </ul>
+  </nav>
+  <!-- header -->
+
+  <header>
+    <div class="header-img">
+      <img src="images/illustration-1.svg" alt="illustration-1">
+    </div>
+    <div class="header-texts">
+      <h1 class="title">
+        All your files in one secure location, accessible anywhere.
+      </h1>
+      <p class="desc header-desc">
+        Fylo stores your most important files in one secure location.
+        Access them wherever you need, share and collaborate with friends,
+        family, and co-workers.
+      </p>
+      <div class="header-input">
+        <input type="email" name="email" placeholder="Enter your email..." required>
+        <button name="email" class="btn get-started">
+          Get Started
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- main -->
+  <main>
+    <img class="main-bg-mobile" src="images/bg-curve-mobile.svg" alt="bg curve">
+    <img class="main-bg-desktop" src="images/bg-curve-desktop.svg" alt="bg curve">
+    <div class="main">
+      <div class="main-top">
+        <div class="main-img">
+          <img src="images/illustration-2.svg" alt="illustration-2">
+        </div>
+        <div class="about-testi">
+          <div class="about">
+            <h1 class="about-title">
+              Stay productive, wherever you are
+            </h1>
+            <div class="about-p">
+              <p class="desc about-desc1">
+                Never let location be an issue when accessing your files. Fylo has you
+                covered for all of your file storage needs.
+              </p>
+              <p class="desc about-desc2">
+                Securely share files and folders with friends, family and colleagues for
+                live collaboration. No email attachments required!
+              </p>
+            </div>
+          </div>
+          <div class="testimonials">
+            <div class="see text-center">
+              <p>
+                See how Fylo works
+              </p>
+              <img src="images/icon-arrow.svg" alt="icon-arrow">
+            </div>
+            <div class="testi-card">
+              <div class="card-body">
+                <img class="quotes" src="images/icon-quotes.svg" alt="icon-quotes">
+                <p class="testi-desc">
+                  Fylo has improved our team productivity by an order of magnitude. Since
+                  making the switch our team has become a well-oiled collaboration machine.
+                </p>
+                <div class="user">
+                  <img src="images/avatar-testimonial.jpg" alt="" class="user-img">
+                  <div class="name-desig">
+                    <h3 class="name">
+                      Kyle Burton
+                    </h3>
+                    <p class="desig">
+                      Founder & CEO, Huddle
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- newsletter -->
+
+    <div class="newsletter">
+      <div class="newsletter-texts">
+        <h2 class="newsletter-title">
+          Get early access today
+        </h2>
+        <p class="newsletter-desc">
+          It only takes a minute to sign up and our free starter tier is extremely generous.
+          If you have any questions, our support team would be happy to help you.
+        </p>
+      </div>
+
+      <div class="newsletter-input">
+        <input type="email" placeholder="email@example.com">
+        <button class="btn get-free">
+          Get Started For Free
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <!-- footer -->
+  <footer>
+    <div class="footer">
+      <div class="footer-logo">
+        <img src="images/logo-footer.svg" alt="footer-logo">
+      </div>
+      <div class="footer-extra">
+        <div class="contact">
+          <div class="phone">
+            <img src="images/icon-phone.svg" alt="icon-phone">
+            <p>Phone: +1-543-123-4567</p>
+          </div>
+          <div class="mail">
+            <img src="images/icon-email.svg" alt="icon-email">
+            <p>example@fylo.com</p>
+          </div>
+        </div>
+        <div class="links">
+          <div class="link1">
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Jobs</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="link2">
+            <ul>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Privacy</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="social-links">
+          <i class="fa fa-facebook-f facebook"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-instagram instagram"></i>
+        </div>
+      </div>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Bs. Joy</a>.
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>
